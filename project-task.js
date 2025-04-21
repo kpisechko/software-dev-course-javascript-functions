@@ -72,3 +72,44 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+// Script 1
+// repetitive patterns = greetings
+// section of code that can be improved is all of it
+
+function greetUsers(name) {
+   console.log("Welcome, " + name + "!");
+}
+greetUsers("Alice");
+greetUsers("Bob");
+greetUsers("Charlie");
+
+// Script 2
+// repetitive patter = calculations
+// section of code that can be improved is the let function
+
+function sumOfNumbers(num1, num2){
+   return num1 + num2;
+}
+console.log("The sum of 5 and 10 is " + sumOfNumbers(5, 10));
+
+// Script 3
+// repetitive pattern = calculations
+// section of code that can be improved is the let function
+
+function productOfNumbers(num1, num2){
+   return num1 * num2;
+}
+console.log("The product of 5 and 10 is " + productOfNumbers(5, 10));
+
+// Script 4
+// repetitive pattern = list printing
+// section of code that can be improved is the let function
+
+function listOfNames(names){
+console.log("Names in the list:");
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+}
+listOfNames(["Alice", "Bob", "Charlie"]);
